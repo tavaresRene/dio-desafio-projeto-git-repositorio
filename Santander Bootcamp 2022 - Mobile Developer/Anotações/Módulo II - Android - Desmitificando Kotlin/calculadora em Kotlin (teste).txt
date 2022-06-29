@@ -1,0 +1,24 @@
+fun main() {
+    println (somar(4,5))
+    println (subtrair(4,5))
+    println (divisao(20,10))
+    println (multiplicar(4,5))
+}
+
+fun somar(valor1:Int, valor2:Int): Int {
+    val Resultado_Soma = valor1 + valor2
+    return Resultado_Soma
+}
+
+fun subtrair(valor1:Int, valor2:Int): Int {
+    val Resultado_Subtrair = valor1 - valor2
+    return Resultado_Subtrair
+}
+fun divisao(valor1:Int, valor2:Int): Int {
+    val Resultado_Dividir = valor1 / valor2
+    return Resultado_Dividir
+}
+fun multiplicar(valor1:Int, valor2:Int): Int {
+    val Resultado_Multiplicar = valor1 * valor2
+    return Resultado_Multiplicar
+}
